@@ -1,0 +1,46 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body{
+  background-color: green;
+}
+
+.appFace{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.app{
+  text-align: center;
+  margin-top: 200px;
+  margin-right: 5px;
+}
+
+.appItmes{
+  display: inline-block;
+  background-color: #e843938f;
+  padding: 30px 20px;
+  border-radius: 10px;
+}
+
+.heartIcon{
+  font-size: 40px;
+  padding: 10px;
+  margin-bottom: 10px;
+  color: #d63031;
+  background-color: #fff;
+  border-radius: 100%;
+}
+
+.text{
+  color: #fff;
+  margin-bottom: 5px;
+}
+
+.counter{
+  color: #f6b93b;
+  font-size: 30px;
+  font-weight:bold ;
+}
