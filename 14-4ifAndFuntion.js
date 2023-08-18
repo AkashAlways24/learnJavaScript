@@ -10,3 +10,35 @@
 // else{
 //   console.log("No it's Not a Leep Year");
 // }
+
+
+// function isLeapYear(year){
+//   const remainder = year % 4;
+//   if (remainder == 0){
+//       return true;
+//   }
+//   else{
+//     return false;
+//   }
+// }
+
+
+// const leapyear = isLeapYear(2005);
+// console.log(leapyear);
+
+
+
+function isLeapYear(year) {
+  if (year % 4 != 0) {
+    return false;
+  } else if (year % 400 == 0) {
+    return true;
+  } else if (year % 100 == 0) {
+    return false;
+  } else {
+    return true;
+  }
+}
+
+const chakeLeapYear= isLeapYear(1700);
+console.log(chakeLeapYear);
