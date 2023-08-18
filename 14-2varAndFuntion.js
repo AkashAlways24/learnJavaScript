@@ -11,4 +11,3 @@ console.log(sagorFeet);
 
 var kayesFeet= inchToFeet(48);
 console.log(kayesFeet);
-
