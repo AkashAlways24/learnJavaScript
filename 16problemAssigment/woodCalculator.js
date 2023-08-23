@@ -1,8 +1,12 @@
-var all = [5, 10, 5];
 
-function woodCalcultor(woodInFeet) {
-  for (let i = 0; i < all.length; i++) {
-    var element = all[i*1];
-    
+
+function woodCalcultor(C, T, B) {
+  var total = 1*1 +1*3 +1*5;
+  return total
   }
-}
+
+  var CTB = [5, 10, 5];
+
+  var InTotall= woodCalcultor(CTB);
+
+  console.log(InTotall);
