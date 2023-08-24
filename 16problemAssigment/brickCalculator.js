@@ -27,4 +27,4 @@ else{
 
 var kotoTala= brickCalculator(22);
 
-console.log("it lagbe", kotoTala);
+console.log("it lagbe", kotoTala);//problem solving
