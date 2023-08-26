@@ -24,5 +24,5 @@
 var x = 5;
 var y = 7;
 
-[x, y]=[y, x];
+[x, y]=[y, x];///xer man y er kashe chane hosche r y er man x er kashe change hoche
 console.log(x, y);

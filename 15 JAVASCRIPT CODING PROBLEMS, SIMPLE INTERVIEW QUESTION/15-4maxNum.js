@@ -1,3 +1,5 @@
+// ai khan e 3 ba tar bashi var er maje boro soto ninoy kora jai
+
 var walmart = 611;
 var saudiOil = 603;
 var stateGrid = 730;
