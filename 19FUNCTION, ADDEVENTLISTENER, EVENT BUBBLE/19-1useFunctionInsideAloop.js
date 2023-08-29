@@ -26,7 +26,7 @@ function evenOrOdd(num) {
 
 
 // var akash =[1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
-// evenOrOdd(akash);///aikhan function call kora holo
+// evenOrOdd(akash);///aikhan function call kora holo o
 
 var evenNum = [2, 4, 6, 8, 10, 12, 14, 16];
 evenOrOdd(evenNum);
