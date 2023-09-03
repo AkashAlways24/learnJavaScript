@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>add event listene</title>
+</head>
+<body>
+  <h1>Hello World</h1>
+  <h1>Hello World</h1>
+  <button id="fast">Tomato</button>
+  <button id="secound">Green</button>
+  <button id="third">Red</button>
+
+  <script>
+    // fast methor
+    //     function btnStyle() {
+    //   document.body.style.backgroundColor = ('tomato');
+    // };
+
+    // var fastBTN = document.getElementById('fast');
+    // fastBTN.addEventListener('click', btnStyle);
+  
+    document.getElementById('fast')
+    .addEventListener('click', function(){
+      document.body.style.backgroundColor = 'tomato'
+    });
+    document.getElementById('secound')
+    .addEventListener('click', function(){
+      document.body.style.backgroundColor = 'green'
+    });
+    document.getElementById('third')
+    .addEventListener('click', function(){
+      document.body.style.backgroundColor = 'red'
+    });
+  
+  </script>
+</body>
+</html>
