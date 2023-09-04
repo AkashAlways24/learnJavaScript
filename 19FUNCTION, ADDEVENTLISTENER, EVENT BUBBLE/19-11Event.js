@@ -1,5 +1,6 @@
 
-  document.getElementById('myBTN').addEventListener('click', function(even){
+  document.getElementById('myBTN')
+  .addEventListener('click', function(even){
     var itmeParent = document.getElementById('myList');
     var newItme = document.createElement('li');
     newItme.innerText = 'Brand New';
